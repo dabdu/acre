@@ -52,7 +52,7 @@ const Home = () => {
         </Text>
       )}
       {/* IF Loading */}
-      {error && (
+      {loading && (
         <Text style={{ fontWeight: "300", fontSize: 15 }}>{"Loading..."}</Text>
       )}
       {/* Input */}
